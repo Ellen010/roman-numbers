@@ -6,6 +6,7 @@
   padding: 0;
 }
 :root {
+  --lgreen: #b2c9ab;
   --green: #49a078;
   --light-grey: #f5f6f7;
   --dark-blue: #1b1b32;
@@ -106,7 +107,7 @@ h2 {
   min-height: 80px;
   margin-block-start: 20px;
   padding: 15px;
-  border: 2px solid var(--peach);
+  border: 2px solid var(--lgreen);
   border-radius: 8px;
   margin-bottom:20px;
 }
@@ -114,7 +115,7 @@ h2 {
 .reset-btn {
   font-size: inherit;
   font-family: inherit;
-  background-color: var(--peach);
+  background-color: var(--lgreen);
   width: 100%;
   height:100%;
   border: 2px solid transparent;
@@ -145,7 +146,7 @@ h2 {
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
   padding: 15px 10px;
-  border: 5px solid var(--peach);
+  border: 5px solid var(--lgreen);
   font-size: 1.2rem;
   text-align: center;
 }
