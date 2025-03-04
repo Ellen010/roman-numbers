@@ -37,7 +37,7 @@ body {
 h1 {
   font-size: 2.125rem;
   text-align: center;
-  margin: 50px 0;
+  margin: 150px 0;
   color: var(--green);
 }
 
@@ -113,6 +113,7 @@ h2 {
   padding: 15px;
   border: 2px solid var(--green);
   border-radius: 8px;
+  margin-top:50px;
   margin-bottom:20px;
   color: var(--sea);
   background-color: var(--cream);
