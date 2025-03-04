@@ -24,7 +24,7 @@ body {
     monospace;
   font-size: 1.125rem;
   color: var(--light-grey);
-  background-image: linear-gradient(#fefae0,#3e5c76,#33415c,#124559);
+  background-image: linear-gradient(#bc6c25, #faedcd);
   background-size: cover;
   padding: 0 4px;
 }
