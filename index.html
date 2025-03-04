@@ -8,31 +8,28 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>
-      Roman Numeral Converter <br />
-      Converter
-    </h1>
+    <h1>Roman Numeral Converter</h1>
     <section class="input-container">
       <label for="number-input">Enter a number:</label>
       <input
-        value=""
         type="number"
-        name="decimal number input"
         id="number-input"
         class="number-input"
+        required
+        min="1"
+        max="3999"
       />
-      <button class="convert-btn" id="convert-btn">Convert</button>
+      <button id="convert-btn" class="convert-btn">Convert</button>
     </section>
-     <section class="output-container">
-      <output id="result" for="number-input">Result</output>
-      <h2>Stack</h2>
-       </section>
+
+    <section class="output-container">
+      <p id="result">Result</p>
+    </section>
+
     <section class="low-container">
-       <button class="reset-btn" id="reset-btn">Reset</button>
-       </section>
-      <section class="output-container">
-      <div id="animation-container"></div>
+      <button id="reset-btn" class="reset-btn">Reset</button>
     </section>
+
     <script src="script.js"></script>
   </body>
 </html>
