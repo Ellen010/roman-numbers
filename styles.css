@@ -37,7 +37,7 @@ body {
 h1 {
   font-size: 2.125rem;
   text-align: center;
-  margin-top: 150px 10px 30px 0px;
+  margin: 150px 10px 30px 0px;
   color: var(--green);
 }
 
