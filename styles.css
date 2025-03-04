@@ -6,6 +6,7 @@
   padding: 0;
 }
 :root {
+  --cream: #faedcd;
   --lgreen: #b2c9ab;
   --green: #49a078;
   --light-grey: #f5f6f7;
@@ -112,6 +113,7 @@ h2 {
   border-radius: 8px;
   margin-bottom:20px;
   color: var(--sea);
+  background-color: var(--cream);
 }
 
 .reset-btn {
