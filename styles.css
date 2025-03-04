@@ -130,6 +130,7 @@ h2 {
   cursor: pointer;
   padding: 8px;
   gap: 10px;
+  margin-top: 30px;
 }
 
 .reset-btn:hover {
