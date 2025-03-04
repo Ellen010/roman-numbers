@@ -12,7 +12,7 @@
   --light-grey: #f5f6f7;
   --dark-blue: #1b1b32;
   --peach: #ef8354;
-  --pink: #ffcad4;
+  --leaf: #d8f3dc;
   --sea: #0a9396;
   --yellow: #f5b700;
   --white: #fffffc;
@@ -76,7 +76,7 @@ h2 {
 }
 
 .convert-btn:hover {
- background-color: var(--pink);
+ background-color: var(--leaf);
  border-color: var(--green);
 }
 
@@ -131,7 +131,7 @@ h2 {
 }
 
 .reset-btn:hover {
- background-color: var(--pink);
+ background-color: var(--leaf);
  border-color: var(--green);
 }
 
